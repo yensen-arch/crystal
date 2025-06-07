@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Exquisite Dining Options",
-  description: "Indulge in diverse culinary experiences, including Umi Uma by Chef Nobu Matsuhisa—the only Nobu restaurant at sea—offering signature dishes like miso black cod.",
+  title: "Refined Elegance at Sea",
+  description: "World-renowned for spacious suites, fine dining, and impeccable service aboard reimagined ocean ships.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Luxurious Accommodations",
-  description: "Relax in elegantly appointed suites featuring private verandas, spacious living areas, and modern amenities designed for ultimate comfort.",
+  title: "Personalized Butler Service",
+  description: "Every suite includes a dedicated butler to handle preferences, arrangements, and comfort.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Enriching Onboard Activities",
-  description: "Engage in a variety of onboard programs, from wellness classes and spa treatments to insightful lectures and live entertainment, enhancing your voyage experience.",
+  title: "Enrichment & Wellness",
+  description: "Daily onboard programming includes lectures, yoga, art classes, and live entertainment.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Curated Itineraries",
-  description: "Explore the world's most captivating destinations with thoughtfully designed itineraries that include exclusive shore excursions and immersive cultural experiences.",
+  title: "Global Destinations",
+  description: "From Antarctica to the Mediterranean, Crystal delivers journeys to iconic and lesser-known destinations.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Crystal Cruises Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
